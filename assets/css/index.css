@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: relative;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.bg1 {
+    background-image: url(../image/bg.jpg);
+}
+
+.bg2 {
+    background-image: url(../image/bg2.jpg);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg1, .bg2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap * {
+    margin-bottom: 20px;
+    margin-inline: 10px;
+}
+
+.align-vertical {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.space-btw {
+    justify-content: space-between
+}
+
+.space-around {
+    justify-content: space-around
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.navbar {
+    padding-inline: 10px;
+    background-color: white;
+}
+.navbar.branding{
+    color: grey;
+}
+
+.navbar .logout {
+    text-align: center;
+    background-color: blue;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 10px;
+    color: white
+}
+
+.card-head {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.186);
+    margin-bottom: 15px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control * {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-indent: 5pt;
+}
+
+.form-control input[type=submit] {
+    background-color: blue;
+    border: none;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.table{
+    border-top-left-radius: .4em;
+    border-top-right-radius: .4em;
+    overflow: hidden;
+    border-collapse: collapse;
+    width: 99%;
+    text-align: center;
+    margin-inline: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.225);
+    margin-bottom: 20px;
+}
+
+.table thead tr {
+    background-color: rgba(0, 0, 255, 0.352);
+    color: white;
+}
+
+.table th, .table td {
+    margin: .5em 1em;
+    padding: 1em !important;
+}
+
+.mx-1 {
+    margin-inline: 10px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+
+.card, .card-mini  {
+    padding-inline: 20px;
+    padding-block: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.225);
+}
+
+.card-mini {
+    width: 230px;
+}
+
+.card {
+    width: 500px;
+}
+
+.btn {
+    display: block;
+    background-color: blue;
+    padding-block: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.create-btn {
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 10px;
+}
+
+.alert {
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-inline: 20px;
+    text-align: center;
+}
+
+.alert.primary {
+    background: skyblue;
+}
+
+.alert.danger {
+    background: red;
+}
+
+.alert.warning {
+    background: rgb(255, 123, 0);
+}

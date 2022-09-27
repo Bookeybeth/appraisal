@@ -1,0 +1,123 @@
+.btn{
+    background-color: aqua;
+    width: 200px;
+    top: 20px;
+    left: 50%;
+    position: relative;
+    height: 30px;
+    margin: auto;
+}
+.container{
+    background-color: #ffffff;
+    width: 40vmin;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+input[type="range"]{
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: block;
+    width: 80%;
+    background-color: #000;
+    border-radius: 8px;
+    outline: none;
+    height: 10px;
+}
+/* input[type="range"]
+    ::-webkit-slider-runnable-track{
+
+    } */
+input[type="range"]::-moz-track{
+    -moz-appearance: none;
+    height: 8px;
+}
+input[type="range"]::-ms-track{
+    appearance: none;
+    height: 8px;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: lightblue;
+    border-radius: 50%;
+    pointer-events: auto;
+    cursor: pointer;
+    margin-top: -6px;
+    border: none;
+    top: 3px;
+    position: relative; 
+    
+}
+input[type="range"]::-moz-range-thumb{
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color:#3264fe;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px;
+    border: none;
+    
+}
+input[type="range"]::-ms-thumb{
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color:#3264fe;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px;
+    border: none;
+    
+}
+input[type="range"]:active::-webkit-slider-thumb{
+  
+    background-color:white;
+    border: 3px solid #3264fe;
+    
+}
+
+.slider_value {
+    width: 13%;
+    position: relative;
+    background-color: #3264fe;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Roboto Mono",monospace;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.appraisal-form {
+    margin-bottom: 50px;
+}
+
+.comments{
+    margin-top: 3rem;
+}
+
+.employee_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.employee_info div {
+    margin-bottom: 10px;
+}
+
+.employee_info input {
+    display: block;
+    width: 50%;
+    margin-inline: auto;
+}
+.asubmit{
+    background-color: green;
+    width: 150px;
+    height: 30px;
+}
